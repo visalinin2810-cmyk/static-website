@@ -110,9 +110,8 @@ footer {
 .footer-section h3 {
   font-size: 16px;
   margin-bottom: 15px;
-  border-bottom: 1px solid #3a4553;
   padding-bottom: 5px;
-}
+} 
 
 .footer-section ul {
   list-style: none;
@@ -126,7 +125,7 @@ footer {
 .footer-section a {
   color: #ddd;
   text-decoration: none;
-  transition: color 0.3s;
+   
 }
 
 .footer-section a:hover {
