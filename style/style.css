@@ -24,6 +24,11 @@ nav{
     color: black;
     font-size: 30px;
 }
+.header-slider img{
+    overflow: hidden;
+    height:800px ;
+    width:100% ;
+}
 .box-col{
     display: flex;
     flex-direction: column;
