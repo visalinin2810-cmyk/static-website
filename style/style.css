@@ -18,10 +18,11 @@ nav{
 .nav-bottom{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: yellowgreen;
+    justify-content: space-around;
+    background-color: #fff;
     height: 80px;
-   
+    color: black;
+    font-size: 30px;
 }
 .box-col{
     display: flex;
@@ -81,6 +82,59 @@ h1{
     max-width: 200px;
     max-height: 200px;
 } 
+footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 40px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-section {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #3a4553;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #febd69;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #131a22;
+  padding: 15px;
+  font-size: 14px;
+}
+
    
     
 
